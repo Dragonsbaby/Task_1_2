@@ -1,5 +1,6 @@
-body{background-color: #dedede;}
+body{padding:0; margin:0;background-color: #dedede;}
 .nav{
+    position:relative;
     padding:0;
     margin:0;
     height:60px;
@@ -7,6 +8,7 @@ body{background-color: #dedede;}
     line-height:60px;
 }
 .nav_left{
+    position:absolute;
     height:60px;
     margin-left:-2px;
     float:left;
@@ -21,29 +23,26 @@ body{background-color: #dedede;}
     float:left;
     padding-right: 22px;;
 }
-.nav_right li b{
+.nav_right li a{
     font: 12px Arial;
+    text-decoration:none;
 }
 .header_1{
     border:1px solid #c0c0c0;
     background: #fff;
+    padding:20px;
     margin: 20px 20px;
     box-shadow: 3px 3px 5px #888888;
     font-family:italic;
 }
-.header_1 h2{
-    margin-left:20px;
-}
+
 .header_1 h4{
-    margin-left:20px;
     color: #888888;
 }
 .header_1 h6{
-    margin-left:20px;
     color: #888888;
 }
 .header_1 p{
-    margin-left:20px;
     text-indent:2em;
     padding:10px 0px;
 }
@@ -51,22 +50,16 @@ body{background-color: #dedede;}
     border:1px solid #c0c0c0;
     background: #fff;
     margin: 20px 20px;
+    padding:20px;
     box-shadow: 3px 3px 5px #888888;
 }
-.header_2 h2{
-    margin-left:20px;
-}
 .header_2 h4{
-    margin-left:20px;
     color: #888888;
 }
 .header_2 h6{
-    margin-left:20px;
     color: #888888;
 }
-.header_2 p{
-    margin-left:20px;
-}
+
 .header_2 li{
     list-style:none;
     padding:5px;
@@ -75,10 +68,8 @@ body{background-color: #dedede;}
     border:1px solid #c0c0c0;
     background: #fff;
     margin: 20px 20px;
+    padding:20px;
     box-shadow: 3px 3px 5px #888888;
-}
-.header_3 h2{
-    margin-left:20px;
 }
 .img
 {
@@ -98,27 +89,21 @@ body{background-color: #dedede;}
     border:1px solid #c0c0c0;
     background: #fff;
     margin: 20px 20px;
+    padding:20px;
     box-shadow: 3px 3px 5px #888888;
     font-family:italic;
 }
-.header_4 h2{
-    margin-left:20px;
-}
 .header_4 h4{
-    margin-left:20px;
     color: #888888;
 }
 .header_4 h6{
-    margin-left:20px;
     color: #888888;
 }
-.header_4 ol{margin-left: 20px;}
 .header_4 ol li{padding:5px 0;}
-.header_4 p{margin-left:20px;}
-.tab{margin-left:20px;margin-bottom:20px;}
+.tab{margin-bottom:20px;}
 .header_4 table
 {
-    width: 1251px;
+    width: 100%;
     height:100%;
     border-collapse: collapse;
 }
@@ -140,36 +125,35 @@ body{background-color: #dedede;}
     border:1px solid #c0c0c0;
     background: #fff;
     margin:20px 20px;
+    padding:20px;
     box-shadow: 3px 3px 5px #888888;
 }
 .header_5 h4{
     border-left: 3px solid #c0c0c0;
     line-height: 35px;
-    margin-left: 20px;
     padding-left:10px;
 }
 form p{font-size:small;}
-.header_5_1{margin-left: 320px;}
-.header_5_2{margin-left: 320px;}
-.header_5_3{margin-left: 320px;}
-.header_5_4{margin-left: 320px;}
-.header_5_5{margin-left: 320px;}
-.header_5_6{margin-left: 320px;}
-.header_5_7{margin-left: 320px; position:relative;}
-.header_5 span{margin-left: 424px; font-size:small;color: #c0c0c0;}
+.header_5_1{margin-left: 300px;}
+.header_5_2{margin-left: 300px;}
+.header_5_3{margin-left: 300px;}
+.header_5_4{margin-left: 300px;}
+.header_5_5{margin-left: 300px;}
+.header_5_6{margin-left: 300px;}
+.header_5_7{margin-left: 300px; position:relative;height:100px; width:calc(100% - 450px);}
+.header_5 span{margin-left: 404px; font-size:small;color: #c0c0c0;}
 .header_5 textarea {
     position: absolute;
     left: 110px;
     top: 0px;
-    width:770px;
+    width:100%;
     font-size:16px;
 }
 .btn
 {
-    margin-left:20px;
-    margin-top:70px;
+    margin-top:20px;
     margin-bottom:20px;
-    width: 1252px;
+    width: 100%;
     height: 40px;
     background: #0044bb;
     color: #fff;
